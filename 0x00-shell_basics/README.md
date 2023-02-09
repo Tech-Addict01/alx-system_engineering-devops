@@ -1,13 +1,1 @@
-pwd => prints the absolute path name of the current working directory
-ls => Displays the content of the current directory
-cd ~ => changes working directory to user home directory
-ls -l => displays the contents of the current directory in long format
-ls -la . => Displays the content of the current directory including the hiddens ones that start with period (.)
-ls -lan => Displays the current directry content in long format, with user IDs displayed numerically and hidden files too
-mkdir /tmp/my_first_directory => creates a directory my_first_directory in the /tmp directory
-mv /tmp/betty /tmp/my_first_directory/betty =>  moves file betty from /tmp tp /tmp/my_first_directory
-rm /tmp/my_first_directory/betty => deletes the file betty from /tmp/my_first_directory
-rmdir /tmp/my_first-directory => deletes the directory my_first_directory from /tmp
-cd - => Changes directory to the previous one
-ls -lan . .. /boot => lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
-type /tmp/iamafile => prints the type of file "iamafile" is which is in the /tmp directory
+ln -s /bin/ls => creates a symbolic link to /bin/ls named _ls_
