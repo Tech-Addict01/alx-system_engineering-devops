@@ -8,3 +8,4 @@ mkdir /tmp/my_first_directory => creates a directory my_first_directory in the /
 mv /tmp/betty /tmp/my_first_directory/betty =>  moves file betty from /tmp tp /tmp/my_first_directory
 rm /tmp/my_first_directory/betty => deletes the file betty from /tmp/my_first_directory
 rmdir /tmp/my_first-directory => deletes the directory my_first_directory from /tmp
+cd - => Changes directory to the previous one
