@@ -9,3 +9,4 @@ mv /tmp/betty /tmp/my_first_directory/betty =>  moves file betty from /tmp tp /t
 rm /tmp/my_first_directory/betty => deletes the file betty from /tmp/my_first_directory
 rmdir /tmp/my_first-directory => deletes the directory my_first_directory from /tmp
 cd - => Changes directory to the previous one
+ls -lan . .. /boot => lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
