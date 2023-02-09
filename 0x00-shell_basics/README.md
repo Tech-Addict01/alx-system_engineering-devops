@@ -7,3 +7,4 @@ ls- displays the contents of the current directory
 ls -l - Display current directory contents in long form
 ls -la .. - Displays current directory content, including those starting with a period (.) which are usually hidden
 ls -lan => displays current directory in long form with user and group IDs numerically displayed and also the hidden files starting with (.)
+mkdir /tmp/my_first_directory => creates the directory my_first-directory in the /tmp/ directory
