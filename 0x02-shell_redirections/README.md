@@ -6,3 +6,4 @@
 6. head -n 3 iacta | tail -n 1 - Displays the third line of the file iacta
 8. ls -la | ls_la_content - Wites the results of ls -la  into the file ls_cwd_content
 9. tail -n 1 iacta >> iacta - Duplicates the last line of file iacta
+12. ls -lt | head -n 10 - Displays the 10 newest lines in the current directory
