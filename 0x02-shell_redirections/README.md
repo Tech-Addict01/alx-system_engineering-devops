@@ -4,3 +4,4 @@
 4. tail /etc/passwd - Displays the last 10 lines of the file /etc/passwd
 5. head /etc/passwd - Displays the first 10 lines of the file /etc/passwd
 6. head -n 3 iacta | tail -n 1 - Displays the third line of the file iacta
+8. ls -la | ls_la_content - Wites the results of ls -la  into the file ls_cwd_content
